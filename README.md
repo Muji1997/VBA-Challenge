@@ -1,62 +1,31 @@
 # VBA-Challenge: Stock Metrics Calculator
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Methodology Applied](#usage)
-- [Sample Data](#sample-data)
-- [Screenshots](#screenshots)
-- [VBA files](#VBAfiles)
-- [License](#license)
-
 ## Overview
 
-The **Stock Metrics Calculator** is a collection of VBA scripts designed to efficiently analyze stock data, calculate essential metrics, and provide valuable insights. This repository showcases separate VBA scripts for each sheet within an Excel workbook.
+The VBA-Challenge repository is structured to facilitate the analysis of stock data efficiently using VBA scripts. Below are the folders and files included in the repository:
 
-## Prerequisites
+- **VBA_Scripts**: This folder houses individual VBA scripts tailored for each sheet within the Excel workbook. Each script is meticulously crafted to analyze specific data and compute relevant metrics.
 
-- Microsoft Excel (for running the VBA scripts)
-- Basic understanding of VBA scripting
+- **Screenshots**: This directory contains screenshots showcasing the results obtained after executing the VBA scripts on the sample dataset.
+
+- **alphabetical_testing.xlsx**: This Excel workbook serves as a sample dataset for testing the VBA scripts. It contains a subset of stock data, allowing users to demonstrate the functionality of the scripts and visualize the generated metrics.
 
 ## Methodology Applied
 
-1. Open the provided `alphabetical_testing.xlsx` file, which contains a subset of stock data for demonstration purposes
+To leverage the VBA scripts and analyze stock data effectively, follow these steps:
 
-2. Access the VBA editor in Excel:
-   - Press `ALT` + `F11` to open the Visual Basic for Applications editor.
-   - For each sheet in your workbook, insert a new module (`Insert` > `Module`).
+1. **Open the Excel Workbook**: Begin by opening the `alphabetical_testing.xlsx` file, which holds the stock data for analysis.
 
-3. Copy and paste the relevant VBA script from the corresponding file in the `VBA_Scripts` directory into the newly created module for each sheet.
+2. **Access the VBA Editor**: Use the keyboard shortcut `ALT` + `F11` to access the Visual Basic for Applications (VBA) editor embedded within Excel.
 
-4. **Looping through Sheets**: Each sheet should have its own VBA script. To apply the script to all sheets:
-   - Create a button (Form Control or ActiveX Control) on each sheet.
-   - Assign the corresponding VBA script to the button.
-   - The script will analyze the data on that specific sheet.
+3. **Insert Modules**: Within the VBA editor, insert a new module for each sheet in the workbook where analysis is required. This can be done by selecting `Insert` > `Module`.
 
-5. **Applying to Other Data**: To apply the script to different data:
-   - Copy and paste the script into a new module in the VBA editor.
-   - Modify the script to reference the correct sheet name and data range.
+4. **Copy and Paste VBA Scripts**: Navigate to the `VBA_Scripts` folder and select the appropriate script for the sheet you're working with. Copy the script and paste it into the corresponding module within the VBA editor.
 
-6. After inserting the scripts and buttons, return to the workbook.
-  
-7. Run the VBA script for each sheet by clicking the respective execution button. This will calculate and display the metrics on each sheet.
+5. **Assign Execution Buttons**: Create buttons (Form Control or ActiveX Control) on each sheet to trigger the execution of the VBA scripts. Assign the relevant script to each button.
 
+6. **Run the Scripts**: Return to the Excel workbook and execute the VBA script for each sheet by clicking the designated button. The scripts will analyze the data and calculate the desired metrics.
 
-## Sample Data
+7. **Review Results**: Once the scripts have been executed, review the generated metrics and insights presented on each sheet. This analysis will help in making informed decisions regarding the stock data.
 
-Alphabetical testing data has been used to showcase the functionality of the scripts while keeping the dataset size manageable.
-
-Feel free to replace the sample data with your own dataset for a comprehensive analysis.
-
-## Screenshots
-
-The [`Screenshots`](Screenshots/) directory contains screenshots displaying the results obtained after running each script on its respective sheet.
-
-## VBA files
-
-The [`VBA Files`](VBAFiles/) directory contains the VBA codescript corresponding to each sheet of the alphabetical_testing workbook.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+By adhering to this structured approach, users can efficiently analyze stock data using VBA scripts, thereby facilitating data-driven decision-making processes.
